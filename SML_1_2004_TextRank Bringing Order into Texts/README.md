@@ -24,6 +24,7 @@ TextRank: a graph-based ranking model.
 
 **Word score formula**:
 
+![ ](https://github.com/gaoisbest/Paper_notes/blob/master/SML_1_2004_TextRank%20Bringing%20Order%20into%20Texts/Formula%201_keyword%20score.png)
 
 ```
 A larger window does not
