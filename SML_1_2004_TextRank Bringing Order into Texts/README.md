@@ -39,18 +39,27 @@ Adjacent keywords extracted by above method are collapsed into a keyphrase.
 
 **Sentence score formula**:
 
-**Similarity formula**:
+![ ](https://github.com/gaoisbest/Paper_notes/blob/master/SML_1_2004_TextRank%20Bringing%20Order%20into%20Texts/Formula_2_key%20sentence%20score.png)
 
-denominator means normalization, which remove the effects of sentence length.
+**Sentence similarity formula**:
+
+![ ](https://github.com/gaoisbest/Paper_notes/blob/master/SML_1_2004_TextRank%20Bringing%20Order%20into%20Texts/Formula%203_sentence%20weight.png)
+
+In above formula, denominator means normalization, which remove the effects of sentence length.
 
 
 ## Implementation
 
 step 1: words tokenizing (segmentation)
+
 step 2: part-of-speech annotating (this step is perfered to obtain better results)
+
 step 3: graph construction 
+
 step 4: iterate until converge (threshold is 0.0001)
+
 step 5: return top K words with highest scores
+
 
 # My comments
 TextRank utilize the global information of the context, which likes the principle of GloVe.
