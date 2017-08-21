@@ -20,25 +20,14 @@ TextRank: a graph-based ranking model.
 
 **Vertex**: words (or specific part-of-speech words, such as nouns and adjectives)
 
-**Edge**: two words are connected if they co-occur within a size fixed window
+**Edge**: two words are connected if they co-occur within a size fixed window (the larger the window, the lower the precision,)
 
 **Word score formula**:
 
 ![ ](https://github.com/gaoisbest/Paper_notes/blob/master/SML_1_2004_TextRank%20Bringing%20Order%20into%20Texts/Formula%201_keyword%20score.png)
 
-```
-A larger window does not
-seem to help – on the contrary, the larger the window,
-the lower the precision, probably explained by
-the fact that a relation between words that are further
-apart is not strong enough to define a connection in
-the text graph.
-```
-
 ## Keyphrase extraction
 Adjacent keywords extracted by above method are collapsed into a keyphrase.
-
-
 
 ## Key sentence (summarization) extraction:
 
