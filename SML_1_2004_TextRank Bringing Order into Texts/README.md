@@ -18,9 +18,9 @@ TextRank: a graph-based ranking model.
 
 **Undirected and unweighted graph** (out-degree of a vertex == in-degree of this vertex)
 
-**Vertex**: words (or specific part-of-speech words, such as nouns and adjectives)
+**Vertex**: words (or specific part-of-speech words, such as **nouns** and **adjectives**) after excluding stop-words.
 
-**Edge**: two words are connected if they co-occur within a size fixed window (the larger the window, the lower the precision,)
+**Edge**: two words are connected if they co-occur within a size fixed window (the larger the window, the lower the precision). The window is sliding-window with sliding step 1.
 
 **Word score formula**:
 
@@ -77,4 +77,4 @@ despite a natural flow in running text, there is no natural
 However, this may conflict with the paper title 'Bringing **Order** into Texts'.
 
 # Application
-
+[TextRank4ZH](https://github.com/letiantian/TextRank4ZH)
