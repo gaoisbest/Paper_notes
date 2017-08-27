@@ -73,6 +73,7 @@ for i in range(len(styles)):
 
 ### Total cost
 ![](https://github.com/gaoisbest/Paper_notes/blob/master/DL_2_2016_Image%20Style%20Transfer%20Using%20Convolutional%20Neural%20Networks/Formula_7_total%20cost.png)
+
 The [Tensorflow](https://github.com/anishathalye/neural-style) implementation also includes *total variation denoising*, may be used for avoiding overfitting.
 
 ```
