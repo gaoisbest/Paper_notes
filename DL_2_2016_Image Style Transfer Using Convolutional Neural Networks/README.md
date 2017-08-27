@@ -14,23 +14,23 @@ Initial a white noise image *W*, the goal is transfering the style of image *A* 
 
 # Model
 ### Total cost
-![] (https://github.com/gaoisbest/Paper_notes/blob/master/DL_2_2016_Image%20Style%20Transfer%20Using%20Convolutional%20Neural%20Networks/Formula_7_total%20cost.png)
+![](https://github.com/gaoisbest/Paper_notes/blob/master/DL_2_2016_Image%20Style%20Transfer%20Using%20Convolutional%20Neural%20Networks/Formula_7_total%20cost.png)
 
 ### Content cost
 ![](https://github.com/gaoisbest/Paper_notes/blob/master/DL_2_2016_Image%20Style%20Transfer%20Using%20Convolutional%20Neural%20Networks/Formula_1_content%20cost.png)
 
 #### Derivative of content cost 
-![ ] (https://github.com/gaoisbest/Paper_notes/blob/master/DL_2_2016_Image%20Style%20Transfer%20Using%20Convolutional%20Neural%20Networks/Formula_2_conent%20derivative.png)
+![](https://github.com/gaoisbest/Paper_notes/blob/master/DL_2_2016_Image%20Style%20Transfer%20Using%20Convolutional%20Neural%20Networks/Formula_2_conent%20derivative.png)
 
 ### Style cost
-![ ](https://github.com/gaoisbest/Paper_notes/blob/master/DL_2_2016_Image%20Style%20Transfer%20Using%20Convolutional%20Neural%20Networks/Formula_6_style%20cost%20derivative.png)
+![](https://github.com/gaoisbest/Paper_notes/blob/master/DL_2_2016_Image%20Style%20Transfer%20Using%20Convolutional%20Neural%20Networks/Formula_6_style%20cost%20derivative.png)
 #### Style cost of each layer
-![ ](https://github.com/gaoisbest/Paper_notes/blob/master/DL_2_2016_Image%20Style%20Transfer%20Using%20Convolutional%20Neural%20Networks/Formula_4_style%20cost%20of%20each%20layer.png)
+![](https://github.com/gaoisbest/Paper_notes/blob/master/DL_2_2016_Image%20Style%20Transfer%20Using%20Convolutional%20Neural%20Networks/Formula_4_style%20cost%20of%20each%20layer.png)
 
 #### Gram matrix
-![ ](https://github.com/gaoisbest/Paper_notes/blob/master/DL_2_2016_Image%20Style%20Transfer%20Using%20Convolutional%20Neural%20Networks/Formula_3_Gram%20matrix.png)
+![](https://github.com/gaoisbest/Paper_notes/blob/master/DL_2_2016_Image%20Style%20Transfer%20Using%20Convolutional%20Neural%20Networks/Formula_3_Gram%20matrix.png)
 #### Derivative of style cost
-![ ]()
+![](https://github.com/gaoisbest/Paper_notes/blob/master/DL_2_2016_Image%20Style%20Transfer%20Using%20Convolutional%20Neural%20Networks/Formula_6_style%20cost%20derivative.png)
 
 # My comments
 The key idea is the correlation bewteen pairs of feature maps in each layer (i.e., Gram matrix), since the feature maps of each layer in traditional CNN are independent.
